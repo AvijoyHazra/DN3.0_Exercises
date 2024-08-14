@@ -2,8 +2,10 @@ package com.springorm.employeemanagementsystem.controllers;
 
 import com.springorm.employeemanagementsystem.EmployeeManagementSystemApplication;
 import com.springorm.employeemanagementsystem.dao.EmployeeRepository;
+import com.springorm.employeemanagementsystem.dto.EmployeeEmailDto;
 import com.springorm.employeemanagementsystem.entity.Department;
 import com.springorm.employeemanagementsystem.entity.Employee;
+import com.springorm.employeemanagementsystem.projections.EmployeeNameAndSalary;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -71,4 +73,13 @@ public class EmployeeController {
         return employeeRepository.findCity(city);
     }
 
+    @GetMapping("/employee/projection/city/{city}")
+    public List<EmployeeNameAndSalary> findEmployeeCity(@PathVariable("city") String city)
+    {
+        return employeeRepository.findEmployeeByCity(city);
+    }
+    @GetMapping("/employee/projection/name/{prefix}")
+    public List<EmployeeEmailDto> getEmployeeNameAndEmail(@PathVariable("prefix") String prefix){
+        return employeeRepository.findEmployeeByNameStartingWith(prefix);
+    }
 }

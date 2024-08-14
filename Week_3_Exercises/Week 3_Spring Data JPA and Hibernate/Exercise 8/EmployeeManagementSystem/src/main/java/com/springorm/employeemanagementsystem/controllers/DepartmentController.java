@@ -2,6 +2,7 @@ package com.springorm.employeemanagementsystem.controllers;
 
 import com.springorm.employeemanagementsystem.dao.DepartmentRepository;
 import com.springorm.employeemanagementsystem.entity.Department;
+import com.springorm.employeemanagementsystem.projections.DepartmentName;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -9,6 +10,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Deque;
 import java.util.List;
 
 @RestController
@@ -59,6 +61,10 @@ public class DepartmentController {
     @GetMapping("/department/custom/developer")
     public List<Department> getDepartmentDeveloper(){
         return departmentRepository.findDepartmentNameContainingDeveloper();
+    }
+    @GetMapping("/department/projection/id/{id}")
+    public DepartmentName getDeptName(@PathVariable("id") int id){
+        return departmentRepository.findDepartmentName(id);
     }
 
 }
