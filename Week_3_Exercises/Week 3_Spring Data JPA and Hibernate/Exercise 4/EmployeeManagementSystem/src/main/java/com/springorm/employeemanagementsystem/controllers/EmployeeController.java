@@ -1,11 +1,8 @@
 package com.springorm.employeemanagementsystem.controllers;
 
-import com.springorm.employeemanagementsystem.EmployeeManagementSystemApplication;
 import com.springorm.employeemanagementsystem.dao.EmployeeRepository;
-import com.springorm.employeemanagementsystem.entity.Department;
 import com.springorm.employeemanagementsystem.entity.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

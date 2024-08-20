@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4e29ead-511e-4c41-bfc8-2cc06e7a892f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ff1a0123-1d24-4464-a127-037ca2830982" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,9 +18,6 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
-  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -31,44 +26,33 @@
     </option>
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 6
+  &quot;associatedIndex&quot;: 8
 }</component>
-  <component name="ProjectId" id="2kWPJq08jDTTDh01fLDHpdQhFLB" />
+  <component name="ProjectId" id="2kgbaajH2M8Bv2UFLmCInznywJ5" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.EmployeeManagementSystemApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/avijo/Downloads/CTS/Submission/Week_3_Exercises/Week 3_Spring Data JPA and Hibernate/Exercise 9/EmployeeManagementSystem/employee",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.EmployeeManagementSystemApplication.executor&quot;: &quot;Run&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/avijo/Downloads/CTS/Codes/Spring_web_mvc/springmvc/src/main/webapp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Spring Boot.EmployeeManagementSystemApplication">
-    <configuration name="EmployeeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="employee" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.exercise.employee.EmployeeApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RunManager">
     <configuration name="EmployeeManagementSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="EmployeeManagementSystem" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.springorm.employeemanagementsystem.EmployeeManagementSystemApplication" />
@@ -89,7 +73,7 @@
       <option name="tomcatInfo">
         <TomcatInfo>
           <option name="name" value="Apache Tomcat/10.1.28" />
-          <option name="path" value="$PROJECT_DIR$/../../../../../../../../apache-tomcat-10.1.28" />
+          <option name="path" value="$PROJECT_DIR$/../../../../../../../apache-tomcat-10.1.28" />
           <option name="version" value="10.1.28.0" />
         </TomcatInfo>
       </option>
@@ -110,51 +94,19 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a4e29ead-511e-4c41-bfc8-2cc06e7a892f" name="Changes" comment="" />
-      <created>1723396291234</created>
+      <changelist id="ff1a0123-1d24-4464-a127-037ca2830982" name="Changes" comment="" />
+      <created>1723708230783</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1723396291234</updated>
-      <workItem from="1723396292278" duration="423000" />
-      <workItem from="1723396959551" duration="169000" />
-      <workItem from="1723397511869" duration="3029000" />
-      <workItem from="1723401095991" duration="21000" />
-      <workItem from="1723457233424" duration="24000" />
-      <workItem from="1723457601522" duration="4628000" />
-      <workItem from="1723476242058" duration="11693000" />
-      <workItem from="1723533478852" duration="6929000" />
-      <workItem from="1723543302974" duration="868000" />
-      <workItem from="1723544554742" duration="4724000" />
-      <workItem from="1723551845097" duration="597000" />
-      <workItem from="1723569559410" duration="8839000" />
-      <workItem from="1723578988533" duration="177000" />
-      <workItem from="1723619250530" duration="680000" />
-      <workItem from="1723621263090" duration="14000" />
-      <workItem from="1723621317030" duration="5200000" />
-      <workItem from="1723643993276" duration="4915000" />
-      <workItem from="1723649603261" duration="2685000" />
-      <workItem from="1723664840131" duration="1790000" />
-      <workItem from="1723666706717" duration="37000" />
-      <workItem from="1723666782349" duration="62000" />
-      <workItem from="1723666873076" duration="174000" />
+      <updated>1723708230783</updated>
+      <workItem from="1723708231914" duration="10606000" />
+      <workItem from="1723735212141" duration="8720000" />
+      <workItem from="1723800327643" duration="5082000" />
+      <workItem from="1723815047188" duration="2532000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>
