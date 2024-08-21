@@ -1,8 +1,10 @@
 package com.springrest.bookstoreapi.dao;
 
+import com.springrest.bookstoreapi.dto.BookDto;
 import com.springrest.bookstoreapi.entity.Book;
 import com.springrest.bookstoreapi.exception.ResourceNotFoundException;
 import com.springrest.bookstoreapi.repository.BookStoreRepository;
+import com.springrest.bookstoreapi.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -16,7 +18,8 @@ import java.util.Optional;
 public class BookStoreController {
     @Autowired
     private BookStoreRepository bookStoreRepository;
-
+    @Autowired
+    private BookService bookService;
     @PostMapping("/book")
     public ResponseEntity<?> registerBook(@RequestBody Book book) throws Exception {
         Book b=bookStoreRepository.save(book);
@@ -79,5 +82,10 @@ public class BookStoreController {
            throw new ResourceNotFoundException("No Book with title : "+title+" and author : "+author+" found");
 
        }
+    }
+    @GetMapping("/book/isbn/{isbn}")
+    public BookDto getBookDataByIsbn(@PathVariable long isbn)
+    {
+        return bookService.getBookByIsbn(isbn);
     }
 }
