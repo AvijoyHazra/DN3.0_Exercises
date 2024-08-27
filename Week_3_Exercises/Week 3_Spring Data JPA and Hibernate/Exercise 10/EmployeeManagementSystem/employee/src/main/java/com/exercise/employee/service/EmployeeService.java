@@ -1,6 +1,6 @@
 package com.exercise.employee.service;
 
-import com.exercise.employee.dao.Employee;
+import com.exercise.employee.entity.Employee;
 import com.exercise.employee.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

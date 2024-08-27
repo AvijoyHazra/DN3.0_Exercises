@@ -43,7 +43,7 @@
     "Spring Boot.EmployeeManagementSystemApplication.executor": "Run",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/avijo/Downloads/CTS/Submission/Week_4_Exercises/Week 4, 5_Spring REST/Exercise_6/BookstoreAPI",
+    "last_opened_file_path": "C:/Users/avijo/Downloads/CTS/Submission/Week_3_Exercises/Week 3_Spring Data JPA and Hibernate/Exercise 10/EmployeeManagementSystem",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -107,6 +107,7 @@
       <workItem from="1724182134453" duration="34000" />
       <workItem from="1724182230546" duration="542000" />
       <workItem from="1724221828490" duration="1237000" />
+      <workItem from="1724492760248" duration="10000" />
     </task>
     <servers />
   </component>
